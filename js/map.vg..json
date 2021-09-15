@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "COVID-19 Hospital beds per 1000 people",
+    "width": 900,
+    "height": 800,
+    "data": {
+      "url": "js/ne_110m_admin_0_countries.topojson",
+      "format": {
+            "type": "topojson",
+            "feature": "ne_110m_admin_0_countries"
+          }
+    },
+    "transform": [{
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "data/COVID-19.xlsx"
+          },
+          "key": "Entity",
+          "fields": ["Hospital beds per 1000 people"]
+        }
+      }],
+      "projection": {
+        "type": "equirectangular"
+    },
+    "mark": {
+      "type": "geoshape"
+      },
+    "encoding": {
+      "color": {
+        "field": "Hospital beds per 1000 people",
+        "type": "quantitative"
+      }
+    }
+}
+
+    
+
