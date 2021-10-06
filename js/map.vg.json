@@ -3,6 +3,7 @@
   "width": 805,
   "height": 800,
   "title": "Medical doctors per 1000 people",
+
   "projection": {"type": "equalEarth"},
   "layer": [
   {
