@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 615,
   "height": 600,
-  "title": "line chart with different type vacinations",
+  "title": " line chart with different type vaccinations",
   "data": {"url": "https://raw.githubusercontent.com/HAONANTAO/FIT3179-Assignment2/main/data/COVID-19-1.csv"},
   "selection": {
     "vaccine_highlight": {

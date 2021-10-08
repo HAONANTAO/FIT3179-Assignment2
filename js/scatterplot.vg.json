@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 615,
 "height": 400,
-"title":"scatterplot",
+"title":"average case vs population age scatterplot",
   "description": "A scatterplot of population and average cases",
   "data": {
     "url": "https://raw.githubusercontent.com/HAONANTAO/FIT3179-Assignment2/main/data/COVID-19-2.csv"

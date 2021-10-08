@@ -3,7 +3,7 @@
   "description": "A bar chart of median age vs average daily test.",
   "width": 650,
   "height": 600,
-  "title": "median age vs daily test comparision",
+  "title": "median age vs daily test comparison",
   "data": { "url": "https://raw.githubusercontent.com/HAONANTAO/FIT3179-Assignment2/main/data/COVID-19-2.csv"},
   
   "selection": {
