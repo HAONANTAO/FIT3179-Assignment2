@@ -44,7 +44,6 @@
        },
     "tooltip":[{"field": "Median age","type": "quantitative"},
     { "aggregate": "average", "field": "Daily tests","type": "quantitative"}]
-   
 },
 "opacity": {
   "condition": {"selection": "continent_highlight", "value": 0.6},
